@@ -1,0 +1,6 @@
+/// USERID
+export const LOGIN_USER_ID = '810016070160';
+/// UserSig
+export const USER_SIG = 'eJwtjM0KgkAYRd9l1qHfjI7OCG0MSSwLSnAzG2vG*Po1kzCid8*-zYV7DpwvydZ7621qEhBmAZkNH7W5N1jigAUFoB74-Uz*pS9FVaEmAXUBfCGFlKMxbYW16TjnnAHASBu89cyTgjEmqDNV8NTl89JVdhMmTnaII*rEu8gclb3Fs-i0eYIhf6Y6V-ZitVk*rumc-P4qfzIb';
+/// SDKAPPID
+export const SDKAPPID = 1400789899;

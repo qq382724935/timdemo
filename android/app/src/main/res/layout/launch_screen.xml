@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash"
+   >
+
+    <LinearLayout 
+            android:orientation="vertical"  
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+             android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            android:src="@mipmap/launch_screen2"/>
+
+    </LinearLayout>
+
+    <LinearLayout 
+            android:orientation="vertical"  
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:textColor="@color/splash"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="UNIF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/splash"
+            android:gravity="center"
+            android:text="企业协同好工具" />
+    </LinearLayout>
+
+    
+    <LinearLayout 
+            android:orientation="vertical"  
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:textSize="8dp"
+            android:textColor="#808080"
+            android:gravity="center"
+            android:text="统一出品" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:textSize="8dp"
+            android:textColor="#808080"
+            android:gravity="center"
+            android:text="Copyright © 2019 pec. All Rights Reserved." />
+    </LinearLayout>
+
+</RelativeLayout>
